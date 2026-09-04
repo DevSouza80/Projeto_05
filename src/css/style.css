@@ -1,0 +1,100 @@
+@import "./color.css";
+@import "./fonts.css";
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    padding:20px 2% 35px 2%;
+}
+
+header .logo {
+    float:left;
+    position: relative;
+    top:20px;
+}
+
+header .logo img {
+    width:140px;
+}
+
+header nav.desktop {
+    float: right;
+    position: relative;
+    top:30px;
+}
+
+header nav.desktop ul {
+    list-style-type:none;
+}
+
+header nav.desktop ul li {
+    float:left;
+    padding:0 15px;
+    font-size:1.3rem;
+}
+
+header nav.desktop ul li a {
+    color:var(--color-one);
+    font-family:var(--font-oswald);
+    font-style:italic;
+    transition: .1s;
+    text-decoration:none;
+}
+
+header nav.desktop ul li a:hover {
+   color: var( --color-tree);
+}
+
+section.banner {
+    width:100%;
+    height:77vh;
+    background-color:var(--color-one);
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: contain;
+}
+
+.text-banner {
+    padding: 50px;
+}
+
+.text-banner-single {
+    color: var(--color-two);
+    width: 300px;
+    height:60px;
+    margin-top:1.3rem;
+    font-size:1.7rem;
+    font-style:italic;
+    text-transform: uppercase;
+    font-family:var(--font-oswald);
+    padding:10px 30px;
+    background-size:100% 100%;
+}
+
+.text-banner-single:nth-of-type(2) {
+    width: 200px;
+    position: relative;
+    left:-10px;
+}
+
+.text-banner-single:nth-of-type(3) {
+    width: 160px;
+    position: relative;
+    left:-20px;
+}
+
+.text-banner-single:nth-of-type(4) {
+    color: var(--color-one);
+    font-size:1.5rem;
+    width: 320px;
+    position: relative;
+    left:-30px;
+}

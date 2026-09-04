@@ -1,0 +1,18 @@
+@media screen and (max-width:830px) {
+
+header nav.desktop {
+   display:none;
+}
+
+
+.text-banner {
+    padding:40px;
+}
+
+}
+
+@media screen and (max-width:768px){
+section.banner {
+   height:95vh;
+}
+}
