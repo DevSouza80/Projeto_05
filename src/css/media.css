@@ -4,6 +4,10 @@ header nav.desktop {
    display:none;
 }
 
+nav.nav-mobile {
+   display:block;
+}
+
 
 .text-banner {
     padding:40px;
@@ -14,5 +18,29 @@ header nav.desktop {
 @media screen and (max-width:768px){
 section.banner {
    height:95vh;
+}
+}
+
+@media screen and (max-width:520px){
+.text-banner {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.text-banner-single:nth-of-type(2) {
+    width: 300px;
+ 
+}
+
+.text-banner-single:nth-of-type(3) {
+    width: 300px;
+  
+}
+
+.text-banner-single:nth-of-type(4) {
+   font-size:1.5rem;
+    width: 300px;
+    
 }
 }
