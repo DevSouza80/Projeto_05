@@ -21,6 +21,26 @@ section.banner {
 }
 }
 
+@media screen and (max-width:580px){
+
+section.veiculos-destaque .container {
+    max-width:1000px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+.vitrine-destaque {
+   display:inline-block;
+    float:none;
+    width:50%;
+    margin-top: 2rem;
+   
+}
+}
+
+
+
 @media screen and (max-width:520px){
 .text-banner {
    display: flex;
@@ -42,5 +62,12 @@ section.banner {
    font-size:1.5rem;
     width: 300px;
     
+}
+}
+
+@media screen and (max-width:580px) {
+.vitrine-destaque {
+    width:80%;
+   
 }
 }
