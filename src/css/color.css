@@ -1,5 +1,10 @@
-:root {
+
+    :root {
     --color-one:#000;
     --color-two:#ffff;
     --color-tree:#eb2d2d;
+    --color-four:  rgba(0, 0, 0, 0.377);
+    --color-five:#353535;
+    --color-six:#c72222;
+    --color-seven:#b11414;
 }
