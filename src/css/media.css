@@ -1,73 +1,306 @@
-@media screen and (max-width:830px) {
-
-header nav.desktop {
-   display:none;
-}
-
-nav.nav-mobile {
-   display:block;
-}
-
-
-.text-banner {
-    padding:40px;
+@media screen and (max-width:1148px) {
+.left-banner {
+    padding:30px;
 }
 
 }
 
-@media screen and (max-width:768px){
-section.banner {
-   height:95vh;
-}
-}
+@media screen and (max-width:1143px) {
 
-@media screen and (max-width:580px){
-
-section.veiculos-destaque .container {
-    max-width:1000px;
-    padding: 40px 0;
-    text-align: center;
+.wrapper-tree {
+    flex-direction: column;
 }
 
+.button-lay {
+    margin-top:0.3rem;
+}
 
-.vitrine-destaque {
-   display:inline-block;
-    float:none;
-    width:50%;
-    margin-top: 2rem;
+}
+
+@media screen and (max-width:1137px) {
+
+title-one {
+    display:flex;
+    align-items: center;
+    gap:1rem;
    
 }
+
+.title-one h2 {
+    font-size: 1.5rem;
+   
+}
+
+.title-two .border-left {
+    width: 170px;
+    height:2px;
+    background-color: var(--color-one);
+}
+
+.title-two .border-right {
+    width: 170px;
+    height:2px;
+    background-color: var(--color-one);
+}
+
+}
+
+@media screen and (max-width:1120px) {
+
+.grid-one {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width:800px;
+    margin: 40px auto;
+    gap: 1rem;
+}
+
+}
+
+@media screen and (max-width:1113px) {
+
+.name-autor h3  {
+font-size: 1rem;
+}
+
+}
+
+@media screen and (max-width:1063px) {
+
+.title-two h2 {
+    font-size: 1.5rem;
+   
 }
 
 
 
-@media screen and (max-width:520px){
-.text-banner {
-   display: flex;
-   align-items: center;
-   flex-direction: column;
+
+
 }
 
-.text-banner-single:nth-of-type(2) {
-    width: 300px;
+@media screen and (max-width:1048px) {
+main.banner-page {
+    height:80vh;
+    background-position:center;
+    
+}
+
+.left-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    padding:30px;
+}
+
+.imagem-textbg {
+    width:150px;
+    padding:8px;
+    height:50px;
+    padding-left:10px;
+}
+
+.imagem-textbg h2 {
  
-}
-
-.text-banner-single:nth-of-type(3) {
-    width: 300px;
+    font-size:1.3rem;
   
 }
 
-.text-banner-single:nth-of-type(4) {
-   font-size:1.5rem;
-    width: 300px;
-    
+.imagem-textbg:nth-of-type(2) {
+    width:150px;
+    left:0px;
+}
+
+.imagem-textbg:nth-of-type(3) {
+    width:120px;
+    left:0px;
+
+}
+
+.imagem-textbg:nth-of-type(4) h2 {
+     font-size:1rem;
+     padding:5px;
+   
+}
+
+
+
+}
+
+@media screen and (max-width:1018px) {
+
+section.session-tree .flex-layout {
+    flex-direction: column;
+}
+
+.left-parts {
+    width:100%;
+    padding:70px;
+  
+}
+
+.right-parts {
+    width:100%;
+  
+}
+
+}
+
+@media screen and (max-width: 999px) {
+
+.title-two h2 {
+    font-size: 1.1rem;
+   
+}
+
+}
+
+@media screen and (max-width:985px) {
+
+.title-two h2 {
+    font-size: 1.1rem;
+   
+}
+
+.title-two .border-left {
+    width: 130px;
+  
+}
+
+.title-two .border-right {
+    width: 130px;
+
+}
+
+
+}
+
+@media screen and (max-width:778px) {
+
+.grid-one {
+    grid-template-columns: repeat(1,1fr);
+    max-width:350px;
+   
+}
+
+}
+
+@media screen and (max-width:775px) {
+
+.title-one h2 {
+    font-size: 1.1rem;
+   
+}
+
+.border-left {
+    width: 130px;
+}
+
+.border-right {
+    width: 130px;
+}
+
+
+}
+
+@media screen and (max-width:830px) {
+
+
+.nav-inter ul {
+    margin-bottom:0.6rem;
+}
+
+footer.footer-interface .flex-layout {
+   flex-direction: column;
+}
+
+}
+
+
+@media screen and (max-width:700px) {
+nav.nav-desktop  {
+    display:none;
+}
+
+nav.nav-mobile {
+    display:block;
+}
+
+
+
+}
+
+@media screen and (max-width:639px) {
+.imagem-textbg {
+    margin-bottom:0.2rem;
+}
+
+
+.imagem-textbg {
+    width:110px;
+    padding:5px;
+    height:40px;
+    padding-left:10px;
+}
+
+.imagem-textbg:nth-of-type(2) {
+    width:90px;
+    left:0px;
+}
+
+.imagem-textbg:nth-of-type(3) {
+    width:80px;
+    left:0px;
+
+}
+
+.imagem-textbg h2 {
+ 
+    font-size:1.1rem;
+  
+}
+
+.left-banner {
+    display: flex;
+    align-items: center;
+   flex-wrap: wrap;
 }
 }
 
-@media screen and (max-width:580px) {
-.vitrine-destaque {
-    width:80%;
-   
+
+@media screen and (max-width:584px) {
+
+
+.nav-inter ul li {
+    padding:0 8px;
+    list-style-type:none;
 }
+
+
+
+}
+
+
+
+
+@media screen and (max-width:540px) {
+
+.compart-dimension {
+    max-width:1000px;
+}
+
+
+.text-testimonials p {
+    font-size: 1rem;
+}
+
+.name-autor h3  {
+font-size: 0.9rem;
+}
+
+.term-footer p {
+    font-size: 0.8rem;
+}
+
+
 }
