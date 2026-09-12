@@ -1,3 +1,14 @@
+@media screen and (max-width:1204px) {
+
+    
+section.venda .title-one h2 {
+    font-size: 1.5rem;
+   
+}
+
+
+}
+
 @media screen and (max-width:1148px) {
 .left-banner {
     padding:30px;
@@ -45,6 +56,19 @@ title-one {
 
 }
 
+@media screen and (max-width:1128px) {
+
+section.venda .title-one .border-left {
+    width: 230px;
+}
+
+section.venda .title-one .border-right {
+    width: 230px;
+}
+
+
+}
+
 @media screen and (max-width:1120px) {
 
 .grid-one {
@@ -61,6 +85,21 @@ title-one {
 
 .name-autor h3  {
 font-size: 1rem;
+}
+
+}
+
+@media screen and (max-width:1111px) {
+
+.grid-galery {
+    grid-template-columns:repeat(2,1fr);
+    max-width: 900px;
+   
+}
+
+.desk-car p {
+    font-size: 0.9rem;
+    max-width:200px;
 }
 
 }
@@ -175,6 +214,25 @@ section.session-tree .flex-layout {
 
 }
 
+
+@media screen and (max-width:855px) {
+
+section.venda .flex-venda {
+    flex-direction: column;
+}
+
+.sidebar {
+    margin: 50px auto;
+}
+
+.grid-galery {
+    grid-template-columns:repeat(2,1fr);
+    margin: 20px auto;
+  
+}
+
+}
+
 @media screen and (max-width:778px) {
 
 .grid-one {
@@ -213,6 +271,19 @@ section.session-tree .flex-layout {
 footer.footer-interface .flex-layout {
    flex-direction: column;
 }
+
+}
+
+@media screen and (max-width:740px) {
+
+section.venda .title-one .border-left {
+    width: 120px;
+}
+
+section.venda .title-one .border-right {
+    width: 120px;
+}
+
 
 }
 
@@ -267,6 +338,61 @@ nav.nav-mobile {
 }
 }
 
+@media screen and (max-width:619px) {
+
+.search1 h2 {
+     font-size: 1.5rem;
+     text-align: center;
+   
+}
+
+.search2 h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.item1  span {
+    font-size: 0.9rem;
+}
+
+.item2  span {
+    font-size: 0.9rem;
+}
+
+.item3 span {
+    font-size: 0.9rem;
+}
+
+.item4  span {
+    font-size: 0.9rem;
+}
+
+.item5  span {
+    font-size: 0.9rem;
+}
+
+.price-primary h3 {
+    font-size: 0.8rem;
+    
+}
+
+.price-secondary h3 {
+    font-size: 0.8rem;
+    
+}
+
+}
+
+@media screen and (max-width:597px) {
+
+.grid-galery {
+    grid-template-columns:repeat(1,1fr);
+    margin: 20px auto;
+  
+}
+
+}
+
 
 @media screen and (max-width:584px) {
 
@@ -300,6 +426,25 @@ font-size: 0.9rem;
 
 .term-footer p {
     font-size: 0.8rem;
+}
+
+
+}
+
+
+@media screen and (max-width:527px) {
+
+section.venda  .title-one h2 {
+    font-size: 1.3rem;
+   
+}
+
+section.venda .title-one .border-left {
+    width: 100px;
+}
+
+section.venda .title-one .border-right {
+    width: 100px;
 }
 
 
