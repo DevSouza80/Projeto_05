@@ -1,6 +1,6 @@
 
     :root {
-      --color-one:#000;
+     --color-one:#000;
     --color-two:#ffff;
     --color-tree:#eb2d2d;
     --color-four:  rgba(0, 0, 0, 0.377);
@@ -11,4 +11,7 @@
     --color-nine:#aaa9a9e5;
     --color-ten:#fcfcfc;
     --color-eleven:rgba(0, 0, 0, 0.363);
+    --color-twelve:#ccc;
+    --color-thirteen:rgb(200,200,200);
+    --color-fourteen:rgb(210,210,210);
 }
