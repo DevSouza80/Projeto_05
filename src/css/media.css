@@ -214,6 +214,27 @@ section.session-tree .flex-layout {
 
 }
 
+@media screen and (max-width:859px) {
+
+section.sobre .title-one h2 {
+     font-size: 1.5rem;
+   
+}
+
+section.sobre .border-left {
+    width: 200px;
+  
+
+}
+
+section.sobre .border-right {
+    width: 200px;
+
+}
+
+
+}
+
 
 @media screen and (max-width:855px) {
 
@@ -301,6 +322,62 @@ nav.nav-mobile {
 
 }
 
+@media screen and (max-width:661px) {
+
+
+.controls-parts {
+    display: flex;
+    flex-direction: column;
+}
+
+.structure-img img {
+    width: 350px;
+    height:350px;   
+}
+
+.text-control p {
+    font-size: 1rem;
+    text-align: justify;
+    max-width:340px;
+}
+
+
+}
+
+
+
+@media screen and (max-width:649px) {
+
+
+section.sobre  .container-bg {
+    width: 100%;
+    max-width: 450px;
+} 
+
+.imagem-about {
+  text-align: center;
+}
+
+.img-rm img{
+    width:80%;
+}
+
+.content-about h2 {
+    font-size: 1.3rem;
+   
+}
+
+.text-about p {
+     text-align: justify;
+     font-size: 1rem;
+  
+}
+
+
+
+}
+
+
 @media screen and (max-width:639px) {
 .imagem-textbg {
     margin-bottom:0.2rem;
@@ -337,6 +414,9 @@ nav.nav-mobile {
    flex-wrap: wrap;
 }
 }
+
+
+
 
 @media screen and (max-width:619px) {
 
@@ -402,6 +482,42 @@ nav.nav-mobile {
     list-style-type:none;
 }
 
+
+
+}
+
+
+@media screen and (max-width:574px) {
+
+section.sobre  .container-bg {
+    width: 100%;
+    max-width:380px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width:571px) {
+
+section.sobre .title-one h2 {
+     font-size: 1.5rem;
+   
+}
+
+section.sobre .border-left {
+    width: 120px;
+  
+
+}
+
+section.sobre .border-right {
+    width: 120px;
+
+}
 
 
 }
