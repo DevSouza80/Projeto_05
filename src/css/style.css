@@ -7,7 +7,7 @@ header.menu-desktop {
     background-color:var(--color-two);
 }
 
-.flex-layout {
+header.menu-desktop  .flex-layout {
     align-items: center;
     justify-content: space-between;
 }
@@ -719,14 +719,14 @@ background-size:cover;
 }
 
 section.sobre {
-    padding:90px 0;
+    padding:90px 2%;
     min-height: 100%;
 }
 
 
 .imagem-about {
     margin: 40px auto;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .img-rm img{
@@ -735,9 +735,29 @@ section.sobre {
 
 section.sobre  .container-bg {
     width: 100%;
-    max-width: 590px;
+    max-width: 800px;
     margin:0 auto;
 } 
+
+section.sobre .title-one h2 {
+    color: var(--color-one);
+    font-size: 2.3rem;
+    font-family: var(--font-oswald);
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+section.sobre .border-left {
+    width: 320px;
+    height:2px;
+    background-color: var(--color-one);
+}
+
+section.sobre .border-right {
+    width: 320px;
+    height:2px;
+    background-color: var(--color-one);
+}
 
 
 .content-about h2 {
@@ -763,7 +783,6 @@ section.sobre  .container-bg {
 }
 
 
-
 .structure-img img {
     width: 220px;
     height:220px;   
@@ -776,5 +795,144 @@ section.sobre  .container-bg {
     font-family: var(--font-inter);
     line-height: 28px;
 }
+
+/* section veiculo */
+
+
+section.venda-single .container-bg {
+    padding:50px 2%;
+    max-width:960px;
+}
+
+section.venda-single .flex-layout {
+    gap:2.8rem;
+}
+
+.info-veiculo {
+    width: 100%;
+    max-width: 480px;
+}
+
+.info-bread {
+    margin-bottom:0.8rem;
+}
+
+.info-bread a {
+    color: var(--color-one);
+    text-decoration: none;
+    font-size:1rem;
+    font-family: var(--font-oswald);
+}
+
+.info-bread span {
+    padding:0 20px;
+}
+
+.info-bread a:last-child {
+    color: var(--color-tree);
+}
+
+.foto-destaque {
+   width: 100%;
+   padding-top: 100%;
+   border: 5px solid var(--color-one);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+
+.nav-galeria-parent {
+ width: 100%;
+ padding:36px;
+ position: relative;
+}
+
+.nav-galeria {
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-galeria-wrapper {
+    width:  200%;
+    
+}
+
+
+.arrow-left-nav {
+    position: absolute;
+    left: 7px;
+    top: 40%;
+    transform: translate(-50%);
+    -ms-transform:translateY(-50%);
+    background-size: 100% 100%;
+    width: 22px;
+    height:22px;
+    cursor: pointer;
+}
+
+.arrow-right-nav {
+    position: absolute;
+    right: -15px;
+    top: 40%;
+    transform: translate(-50%);
+    -ms-transform:translateY(-50%);
+    background-size: 100% 100%;
+    width: 22px;
+    height:22px;
+    cursor: pointer;
+}
+
+.mini-img-wraper {
+    float: left;
+    padding:9px;
+    width: calc(33.3% * (100/200));
+}
+
+
+.mini-img {
+ width: 100%;
+ padding-top:100%;
+ background-position: center;
+ background-size: cover;
+}
+
+.descricao-veiculo h2 {
+    color: var(--color-one);
+    font-size: 2.3rem;
+    font-family: var(--font-oswald);
+    font-style: italic;
+    margin-bottom:0.8rem;
+}
+
+.descricao-veiculo p {
+    color: var(--color-five);
+    font-size: 1rem;
+    text-align: justify;
+    font-family: var(--font-inter);
+    line-height: 27px;
+    max-width:450px;
+}
+
+.btn-veiculo {
+    padding:14px 30px;
+    border: none;
+    text-decoration: none;
+    color: var(--color-two);
+    font-size: 1rem;
+    font-family: var(--font-oswald);
+    background-color: var(--color-tree);
+    border-bottom: 5px solid var(--color-seven);
+    transition:.5s;
+    cursor: pointer;
+}
+
+.button-single {
+    margin-top: 2rem;
+}
+
+.btn-veiculo:hover {
+    background-color:var(--color-seven);
+}
+
 
 /**/
